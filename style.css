@@ -1,0 +1,22 @@
+* {
+    margin:0;
+    padding:0;
+}
+.btnBox {
+    padding:10px;
+    /* display:flex; */
+    border-bottom:1px solid #ccc;
+}
+
+.imgHiddenBox {
+    height:0;
+    visibility: hidden;
+}
+
+.viewBox {
+    display:flex;
+    justify-content: space-between;
+}
+.viewBox > div {
+    flex: 1;
+}
