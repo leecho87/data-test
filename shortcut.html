@@ -23,7 +23,6 @@
     
     window.addEventListener("beforeinstallprompt", (e) => {
         e.preventDefault();
-        evt_p.innerHTML = JSON.stringify(e);
         deferredPrompt = e;
     });
 
